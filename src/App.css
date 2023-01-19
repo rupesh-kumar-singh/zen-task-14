@@ -1,0 +1,81 @@
+body {
+  background-color: rgba(207, 165, 88, 0.728);
+}
+
+.App {
+  text-align: center;
+}
+
+.crud-background {
+  padding: 20px;
+  margin: 10px auto;
+  background-color: rgb(77, 77, 137);
+  max-width: 500px;
+}
+
+.crud-ope {
+  font-weight: 700;
+  display: inline-block;
+  display: flex;
+  justify-content: space-around;
+}
+.crud-ope > div > button {
+  border-radius: 20px;
+
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.crud-ope > input {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.add-btn {
+  padding: 10px;
+  background-color: rgba(67, 174, 67, 0.849);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.delete-btn {
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  background-color: rgba(251, 79, 79, 0.696);
+}
+
+.item {
+  margin-top: 10px;
+
+  background-color: rgba(69, 69, 183, 0.847);
+  text-align: center;
+  max-width: 100%;
+  border: 2px solid red;
+  max-height: 100px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.item h2 {
+  width: 60%;
+}
+.btn {
+  cursor: pointer;
+  font-size: 31px;
+}
+
+.btn-update {
+  color: orangered;
+}
+
+.btn-del {
+  color: rgb(194, 26, 26);
+}
+
+.additem {
+  padding: 1px;
+  background-color: rgba(158, 129, 77, 0.772);
+}
